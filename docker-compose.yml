@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  ssh_honeypot:
+    build: .
+    container_name: ssh_honeypot
+    ports:
+      - "2222:22"
+    restart: unless-stopped
+    volumes:
+      - ./history:/home/support   # .bash_history et .command_log
+    environment:
+      - HISTFILE=/home/support/.bash_history

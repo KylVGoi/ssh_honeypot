@@ -1,0 +1,15 @@
+May 19 14:07:17 9eaa9a69ea5e rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+May 19 14:07:17 9eaa9a69ea5e rsyslogd: activation of module imklog failed [v8.2102.0 try https://www.rsyslog.com/e/2145 ]
+May 19 14:07:17 9eaa9a69ea5e rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="15" x-info="https://www.rsyslog.com"] start
+May 20 15:18:27 782b5c2fde85 rsyslogd: module 'imuxsock' already in this config, cannot be added  [v8.2102.0 try https://www.rsyslog.com/e/2221 ]
+May 20 15:18:27 782b5c2fde85 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+May 20 15:18:27 782b5c2fde85 rsyslogd: activation of module imklog failed [v8.2102.0 try https://www.rsyslog.com/e/2145 ]
+May 20 15:18:27 782b5c2fde85 rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="38" x-info="https://www.rsyslog.com"] start
+May 20 15:20:51 782b5c2fde85 rsyslogd: module 'imuxsock' already in this config, cannot be added  [v8.2102.0 try https://www.rsyslog.com/e/2221 ]
+May 20 15:20:51 782b5c2fde85 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+May 20 15:20:51 782b5c2fde85 rsyslogd: activation of module imklog failed [v8.2102.0 try https://www.rsyslog.com/e/2145 ]
+May 20 15:20:51 782b5c2fde85 rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="44" x-info="https://www.rsyslog.com"] start
+May 20 15:21:43 782b5c2fde85 rsyslogd: module 'imuxsock' already in this config, cannot be added  [v8.2102.0 try https://www.rsyslog.com/e/2221 ]
+May 20 15:21:43 782b5c2fde85 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+May 20 15:21:43 782b5c2fde85 rsyslogd: activation of module imklog failed [v8.2102.0 try https://www.rsyslog.com/e/2145 ]
+May 20 15:21:43 782b5c2fde85 rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="16" x-info="https://www.rsyslog.com"] start

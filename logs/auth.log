@@ -1,0 +1,30 @@
+May 19 14:13:10 9eaa9a69ea5e root: TEST_LOG - ceci est un test
+May 19 14:25:50 9eaa9a69ea5e sshd[64]: Connection from 192.168.1.63 port 57060 on 172.24.0.2 port 22 rdomain ""
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: Accepted password for support from 192.168.1.63 port 57060 ssh2
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: pam_unix(sshd:session): session opened for user support(uid=1000) by (uid=0)
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: User child is on pid 70
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 19 14:26:09 9eaa9a69ea5e sshd[64]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 19 14:26:09 9eaa9a69ea5e sshd[70]: Starting session: shell on pts/0 for support from 192.168.1.63 port 57060 id 0
+May 19 14:26:22 9eaa9a69ea5e sshd[70]: Close session: user support from 192.168.1.63 port 57060 id 0
+May 19 14:26:22 9eaa9a69ea5e sshd[70]: Received disconnect from 192.168.1.63 port 57060:11: disconnected by user
+May 19 14:26:22 9eaa9a69ea5e sshd[70]: Disconnected from user support 192.168.1.63 port 57060
+May 19 14:26:22 9eaa9a69ea5e sshd[64]: pam_unix(sshd:session): session closed for user support
+May 19 15:07:26 9eaa9a69ea5e sshd[1]: Received signal 15; terminating.
+May 20 15:21:01 782b5c2fde85 sshd[47]: Connection from 192.168.1.63 port 56524 on 172.23.0.2 port 22 rdomain ""
+May 20 15:21:01 782b5c2fde85 sshd[47]: Connection from 192.168.1.63 port 56524 on 172.23.0.2 port 22 rdomain ""
+May 20 15:21:17 782b5c2fde85 sshd[47]: Accepted password for support from 192.168.1.63 port 56524 ssh2
+May 20 15:21:17 782b5c2fde85 sshd[47]: Accepted password for support from 192.168.1.63 port 56524 ssh2
+May 20 15:21:17 782b5c2fde85 sshd[47]: pam_unix(sshd:session): session opened for user support(uid=1000) by (uid=0)
+May 20 15:21:17 782b5c2fde85 sshd[47]: pam_unix(sshd:session): session opened for user support(uid=1000) by (uid=0)
+May 20 15:21:17 782b5c2fde85 sshd[47]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[47]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[47]: User child is on pid 53
+May 20 15:21:17 782b5c2fde85 sshd[47]: User child is on pid 53
+May 20 15:21:17 782b5c2fde85 sshd[47]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[47]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[53]: Starting session: shell on pts/1 for support from 192.168.1.63 port 56524 id 0
+May 20 15:21:17 782b5c2fde85 sshd[47]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[47]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+May 20 15:21:17 782b5c2fde85 sshd[53]: Starting session: shell on pts/1 for support from 192.168.1.63 port 56524 id 0
