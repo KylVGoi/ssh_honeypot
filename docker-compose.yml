@@ -8,6 +8,6 @@ services:
       - "2222:22"
     restart: unless-stopped
     volumes:
-      - ./history:/home/support   # .bash_history et .command_log
+      - ./history:/home/support   # .bash_history et volume partagé
     environment:
       - HISTFILE=/home/support/.bash_history
