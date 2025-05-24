@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get install -y openssh-server sudo bsdutils && \
     rm -rf /var/lib/apt/lists/*
 
-# Créer l'utilisateur honeypot
+# Créer l'utilisateur du honeypot avec user:pass
 RUN useradd -m -s /bin/bash support && \
     echo "support:#06Babyluv" | chpasswd && \
     usermod -aG sudo support
